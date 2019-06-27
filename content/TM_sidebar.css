@@ -1,7 +1,8 @@
 .suspension {
-    position: absolute;
+    position: fixed;
     width: 35px;
-    height: 100%;
+    top: 0px;
+    bottom: 0px;
     right: 0px;
     background: rgb(0, 0, 0);
     z-index: 10;
@@ -69,8 +70,11 @@
     /* color: rgb(255, 0, 54); */
 }
 
-.suspension .sus-foot .susf-sp3 h1 {
+.suspension .sus-foot .susf-sp3 a {
+    display: block;
     font-size: 10px;
+    font-weight: bold;
+    color: white;
 }
 
 

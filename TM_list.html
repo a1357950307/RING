@@ -7,13 +7,16 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>天猫Tmall.com-理想生活上天猫</title>
     <link rel="stylesheet" href="./content/reset.css">
-    <link rel="stylesheet" href="./content/TM_list.css">
     <link rel="stylesheet" href="./content/TM_sidebar.css">
     <link rel="stylesheet" href="./content/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="icon" href="./content/img/TM.png">
+    <script src="./content/js/TM_list.js"></script>
+    <link rel="stylesheet" href="./content/TM_list.css">
 </head>
 
 <body>
     <!-- 天猫列表页 -->
+    <a name="top"></a>
     <!-- 右边悬浮栏 -->
     <div class="suspension">
         <!-- 中部div -->
@@ -44,10 +47,11 @@
                 <i class="fa fa-qrcode"></i>
             </span>
             <span class="susf-sp3">
-                <h1>top</h1>
+                <a href="#top">Top</a>
             </span>
         </div>
     </div>
+    <!-- 顶部表单 -->
     <form action="">
         <!-- 顶部栏 -->
         <div class="head">
@@ -153,12 +157,354 @@
                         </div>
                     </div>
                     <div class="hs-newuser">
-                        <img src="./content/img/TM_list_newuser.jpg" alt="">
+                        <img src="./content/img/TM_list/TM_list_newuser.jpg" alt="">
                     </div>
                 </div>
             </div>
         </div>
+        <!-- 顶部参数标签栏-->
+        <div class="hlabel">
+            <div class="mg1200">
+                <!-- 顶部全部搜索栏 -->
+                <div class="hl-head clearfix">
+                    <div class="hlh-left">
+                        <span class="hlh-left-sp1">
+                            全部 &nbsp;
+                            <i class="fa fa-angle-right"></i>
+                            &nbsp;
+                        </span>
+                        <span class="hlh-left-sp2">
+                            <input type="text">
+                            <a href="" class="">
+                                <i class="fa fa-search"></i>
+                            </a>
+                        </span>
+                    </div>
+                    <div class="hlh-right">
+                        共&nbsp;5977&nbsp;件相关商品
+                    </div>
+                </div>
+                <!-- 中部品牌栏 -->
+                <div class="hl-main clearfix">
+                    <!-- 左侧栏 -->
+                    <div class="mg120 hlm-left">
+                        品牌
+                    </div>
+                    <div class="hlm-right clearfix">
+                        <div class="hlmr-left">
+                            <ul>
+                                <li><a href="">MSI/微星</a></li>
+                                <li><a href="">Colorful/七彩虹</a></li>
+                                <li><a href="">Asus/华硕</a></li>
+                                <li><a href="">Giabyte/技嘉</a></li>
+                                <li><a href="">GAINWARD/耕升</a></li>
+                                <li><a href="">ZOTAC/索泰</a></li>
+                                <li><a>MAXSUN/铭瑄</a></li>
+                                <li><a>Levono/联想</a></li>
+                            </ul>
+                        </div>
+                        <div class="hlmr-right">
+                            <a class="hlmrr-a1">
+                                <i class="fa fa-plus"></i>
+                                <span>多选</span>
+                            </a>
+                            <a>
+                                <span>更多</span>
+                                <i class="fa fa-angle-down"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- 底部分类栏 -->
+                <div class="hl-foot clearfix">
+                    <div class="mg120 hlf-left">
+                        <i class="fa fa-caret-right"></i>
+                        <span>分类</span>
+                    </div>
+                    <div class="hlf-right clearfix">
+                        <a class="hlfr-left" href="">显卡</a>
+                        <a class="hlfr-right">
+                            <span>更多</span>
+                            <i class="fa fa-angle-down"></i>
+                        </a>
+                    </div>
+                </div>
+                <!-- 悬浮商品筛选栏 -->
+                <div class="hl-screen clearfix">
+                    <!-- 排序标签 -->
+                    <div class="hls-d1">
+                        <ul class="clearfix">
+                            <li class="hlsd1-li1">
+                                <a href="">
+                                    <span>综合</span>
+                                    <i class="fa fa-arrow-down"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <span>人气</span>
+                                    <i class="fa fa-arrow-down"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <span>新品</span>
+                                    <i class="fa fa-arrow-down"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <span>销量</span>
+                                    <i class="fa fa-arrow-down"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <span>价格</span>
+                                    <i class="fa fa-caret-down"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- 收货地 -->
+                    <div class="hls-d2">
+                        <ul class="clearfix">
+                            <li class="hlsd2-li1">
+                                <span>收货地:</span>
+                            </li>
+                            <li>
+                                <select name="" id="">
+                                    <option value="">杭州</option>
+                                </select>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- 价格 -->
+                    <div class="hls-d3">
+                        <ul>
+                            <li>
+                                <div>
+                                    <i class="fa fa-yen"></i>
+                                    <input type="text" placeholder="请输入">
+                                </div>
+                            </li>
+                            <li class="hlsd3-li2">
+                                <i class="fa fa-arrows-h"></i>
+                            </li>
+                            <li>
+                                <div>
+                                    <i class="fa fa-yen"></i>
+                                    <input type="text" placeholder="请输入">
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- 包邮  折扣 -->
+                    <div class="hls-d4 clearfix">
+                        <ul class="clearfix">
+                            <li>
+                                <div>
+                                    <input type="checkbox" id="cb1">
+                                    <label for="cb1">包邮</label>
+                                </div>
+                            </li>
+                            <li>
+                                <div>
+                                    <input type="checkbox" id="cb1">
+                                    <label for="cb1">折扣</label>
+                                </div>
+                            </li>
+                            <li>
+                                <div>
+                                    <input type="checkbox" id="cb3">
+                                    <label for="cb3">搭配半价</label>
+                                </div>
+                            </li>
+                        </ul>
+                        <div class="hlsd4-right">
+                            <a class="">
+                                <span>更多</span>
+                                <i class="fa fa-angle-down"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- 店铺/大图 -->
+                    <div class="hls-d5">
+                        <ul class="clearfix">
+                            <li>
+                                <a href="">
+                                    <i class="fa fa-shopping-bag"></i>
+                                    店铺
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <i class="fa fa-windows"></i>
+                                    大图
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- 1/80 <> -->
+                    <div class="hls-d6">
+                        <div>
+                            <span>1&nbsp;/&nbsp;80</span>
+                            <span>
+                                <a href="">
+                                    <i class="fa fa-angle-left"></i>
+                                </a>
+                            </span>
+                            <span>
+                                <a href="" class="hlsd6-a2">
+                                    <i class="fa fa-angle-right"></i>
+                                </a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
     </form>
+    <!-- 商品列表 -->
+    <div class="main">
+        <div class="mg1200 main-mg" id="productlist">
+            <div class="main-tempborder">
+                <div class="main-product">
+                    <a href="">
+                        <!-- 商品信息 -->
+                        <div class="mp-pinfo">
+                            <!-- 商品图片 -->
+                            <span class="mppi-sp1">
+                                <img src="./content/img/TM_list/TM_list_pinfo01.jpg" alt="">
+                            </span>
+                            <!-- 价格 -->
+                            <span class="mppi-sp2">
+                                <span>
+                                    <i class="fa fa-yen"></i>
+                                    2599.00
+                                </span>
+                            </span>
+                            <!-- 商品名 -->
+                            <span class="mppi-sp3">
+                                <a href="">七彩虹RTX2060 6G Ultra/AD/Vulcan</a>
+                            </span>
+                            <!-- 店铺名 -->
+                            <span class="mppi-sp4">
+                                <a href="">和瑟数码专营店</a>
+                            </span>
+                        </div>
+                        <!-- 成交量 评价 联系店家 -->
+                        <div class="mp-sinfo clearfix">
+                            <!-- 成交量 -->
+                            <span class="mpsi-sp1">
+                                月成交
+                                <span>855笔</span>
+                            </span>
+                            <!-- 评价 -->
+                            <span class="mpsi-sp2">
+                                评价
+                                <span><a href="">508</a></span>
+                            </span>
+                            <!-- 联系店家 -->
+                            <span class="mpsi-sp3">
+                                <a href=""><img src="./content/img/TM_list/TM_list_aliwanwan.png" alt=""></a>
+                            </span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!-- 页面跳转栏 -->
+        <div class="main-pageturn mg1200">
+            <form action="">
+                <div class="clearfix">
+                    <!-- 左侧 -->
+                    <div class="mpt-left">
+                        <ul>
+                            <li class="mptl-li1"><a href="">&lt;&lt;上一页</a></li>
+                            <li class="mptl-li2"><a href="">1</a></li>
+                            <li><a href="">2</a></li>
+                            <li><a href="">3</a></li>
+                            <li class="mptl-li5"><a href="">...</a></li>
+                            <li class="mptl-li6"><a href="">下一页&gt;&gt;</a></li>
+                        </ul>
+                    </div>
+                    <!-- 右侧 -->
+                    <div class="mpt-right">
+                        <div>
+                            <span>
+                                共80页,到第
+                                <input type="text" value="1">
+                                页
+                                <input type="button" value="确定" name="" id="">
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <!-- 底部搜索栏 -->
+        <div class="main-bottomsearch mg1200">
+            <!-- 您是不是想找... -->
+            <div class="mbs-head">
+                <span>您是不是想找</span>
+                <ul>
+                    <li>
+                        <a href="">
+                            1080
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            显卡2060
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            索泰2060
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            铭瑄2060
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            2060ti
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            rtx2060
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            rtx2060显卡
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <!-- 底部搜索栏 -->
+            <div class="mbs-main">
+                <div class="">
+                    <input type="text">
+                    <input type="button" value="搜索" name="" id="">
+                </div>
+            </div>
+            <!-- 反馈建议栏 -->
+            <div class="mbs-feedback">
+                <span>
+                    <img src="./content/img/TM_list/TM_list_feedback.png" alt="">
+                    喵~在此反馈您的意见和建议吧,
+                    <a href="">立即反馈</a>
+                </span>
+            </div>
+        </div>
+    </div>
+
 </body>
 
 </html>
