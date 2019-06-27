@@ -1,0 +1,1095 @@
+body {
+    overflow-x: hidden;
+}
+
+.ctn-dv {
+    background-color: white;
+}
+
+.hnav-dv {
+    background-color: #A9180A;
+}
+
+.hnav-dv>.hnav-inner {
+    width: 1200px;
+    margin: 0px auto;
+}
+
+.hnav-dv>.hnav-inner>.ileft-dv {
+    display: inline-block;
+    height: 30px;
+    line-height: 30px;
+    /* border: 1px solid red; */
+}
+
+.hnav-inner>.ileft-dv a {
+    color: white;
+    font-size: 10px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.hnav-dv>.hnav-inner>.ileft-dv div {
+    color: white;
+    font-size: 10px;
+    float: left;
+}
+
+.hnav-dv>.hnav-inner>.ileft-dv .dv2 {
+    margin: 0px 20px;
+}
+
+.hnav-inner .right>li>a {
+    color: white;
+    font-size: 10px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.hnav-inner>.iright-dv {
+    /* border: 1px solid red; */
+    float: right;
+    height: 30px;
+    line-height: 30px;
+}
+
+.hnav-inner>.iright-dv>.right li {
+    display: inline-block;
+    padding: 5px 5px;
+    /* border: 1px solid red; */
+}
+
+.hid {
+    display: none;
+}
+
+.hnav-inner>.iright-dv>.right .img1 {
+    display: inline-block;
+}
+
+.hid {
+    display: none;
+}
+
+.rption {
+    position: relative;
+}
+
+.hnav-inner>.iright-dv>.right .l1-dv:hover {
+    background-color: white;
+}
+
+.hnav-inner>.iright-dv>.right .l1-dv:hover>a {
+    text-decoration: underline;
+    color: red;
+}
+
+.hnav-inner>.iright-dv>.right .l1-dv:hover .img1 {
+    display: none;
+}
+
+.hnav-inner>.iright-dv>.right .l1-dv:hover .img2 {
+    display: inline-block;
+}
+
+.hnav-inner>.iright-dv>.right .l2-dv:hover>a {
+    color: rgb(223, 171, 1);
+}
+
+.hnav-inner>.iright-dv>.right .l3-dv:hover {
+    background-color: white;
+}
+
+.hnav-inner>.iright-dv>.right .l3-dv:hover>a {
+    text-decoration: underline;
+    color: red;
+}
+
+.hnav-inner>.iright-dv>.right .l3-dv:hover .img1 {
+    display: none;
+}
+
+.hnav-inner>.iright-dv>.right .l3-dv:hover .img2 {
+    display: inline-block;
+}
+
+.hnav-inner>.iright-dv>.right .l4-dv:hover>a {
+    color: rgb(223, 171, 1);
+}
+
+.hnav-inner>.iright-dv>.right .l5-dv:hover>a {
+    color: rgb(223, 171, 1);
+}
+
+.hnav-inner>.iright-dv>.right .l6-dv:hover {
+    background-color: white;
+}
+
+.hnav-inner>.iright-dv>.right .l6-dv:hover>a {
+    text-decoration: underline;
+    color: red;
+}
+
+.hnav-inner>.iright-dv>.right .l6-dv:hover .img1 {
+    display: none;
+}
+
+.hnav-inner>.iright-dv>.right .l6-dv:hover .img2 {
+    display: inline-block;
+}
+
+.hnav-inner>.iright-dv>.right .l7-dv:hover {
+    background-color: white;
+}
+
+.hnav-inner>.iright-dv>.right .l7-dv:hover>a {
+    text-decoration: underline;
+    color: red;
+}
+
+.hnav-inner>.iright-dv>.right .l7-dv:hover .img1 {
+    display: none;
+}
+
+.hnav-inner>.iright-dv>.right .l7-dv:hover .img2 {
+    display: inline-block;
+}
+
+.heard-dv>.log-ctn {
+    width: 1200px;
+    margin: 0px auto;
+    text-align: center;
+    /* border: 1px solid red; */
+}
+
+.heard-dv>.log-ctn>.log-img {
+    float: left;
+    height: 129px;
+    overflow: hidden;
+    /* border: 1px solid red; */
+}
+
+.heard-dv>.log-ctn>.text-ctn {
+    display: inline-block;
+    margin: 32px 0px;
+    /* border: 1px solid red; */
+}
+
+.heard-dv>.log-ctn>.log-img img {
+    height: 130px;
+    width: 200px;
+}
+
+.heard-dv>.log-ctn>.text-ctn .text-in {
+    display: inline-block;
+    float: left;
+}
+
+.heard-dv>.log-ctn>.text-ctn .text-in input {
+    width: 490px;
+    height: 35px;
+}
+
+.heard-dv>.log-ctn>.text-ctn .ss-btn {
+    display: inline-block;
+    float: left;
+}
+
+.heard-dv>.log-ctn>.text-ctn .ss-btn input {
+    background-color: #FF0036;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 7px 40px;
+    border: none;
+}
+
+.heard-dv>.log-ctn>.text-ctn .ul1-dv ul {
+    text-align: center;
+}
+
+.heard-dv>.log-ctn>.text-ctn .ul1-dv li {
+    display: inline-block;
+    float: left;
+    margin-right: 10px;
+    padding-right: 10px;
+    border-right: 1px solid #ccc;
+}
+
+.heard-dv>.log-ctn>.text-ctn .ul1-dv a {
+    display: block;
+    text-decoration: none;
+    color: #ccc;
+}
+
+
+.iright-dv .l1-dv:hover .xl1-dv {
+    display: inline-block;
+    position: absolute;
+    left: 0px;
+    top: 34px;
+    width: 75px;
+    border: 1px solid #ccc;
+    background-color: white;
+}
+
+.iright-dv .xl1-dv a {
+    text-decoration: none;
+    color: black;
+    font-size: 10px;
+}
+
+.iright-dv .xl1-dv a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+.iright-dv .l3-dv:hover .xl3-dv {
+    display: inline-block;
+    position: absolute;
+    left: 0px;
+    top: 34px;
+    width: 67px;
+    border: 1px solid #ccc;
+    background-color: white;
+}
+
+.iright-dv .xl3-dv a {
+    text-decoration: none;
+    color: black;
+    font-size: 10px;
+}
+
+.iright-dv .xl3-dv a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+.iright-dv .l4-dv:hover .xl4-dv {
+    position: absolute;
+    display: inline-block;
+    top: 34px;
+    left: -50px;
+}
+
+.iright-dv .l6-dv:hover .xl6-dv {
+    display: inline-block;
+    position: absolute;
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 0px 10px;
+    width: 128px;
+    top: 34px;
+    left: -84px;
+}
+
+.iright-dv .l6-dv .xl6-dv .ilk {
+    display: inline-block;
+}
+
+.iright-dv .l6-dv .xl6-dv .right {
+    margin-right: 20px;
+}
+
+.iright-dv .l6-dv .xl6-dv hr {
+    border: 1px dotted black;
+    margin-bottom: 5px;
+}
+
+.iright-dv .l6-dv .xl6-dv a {
+    text-decoration: none;
+    color: black;
+    font-size: 10px;
+}
+
+.iright-dv .l6-dv .xl6-dv a:hover {
+    text-decoration: underline;
+    color: red;
+}
+
+.iright-dv .l7-dv .xl7-dv>div {
+    display: inline-block;
+}
+
+.iright-dv .l7-dv:hover .xl7-dv {
+    position: absolute;
+    display: inline-block;
+    width: 1190px;
+    top: 34px;
+    left: -1116px;
+    background-color: white;
+    border: 1px solid #ccc;
+}
+
+.iright-dv .l7-dv .xl7-dv a {
+    text-decoration: none;
+    color: black;
+    font-size: 10px;
+}
+
+.iright-dv .l7-dv .xl7-dv a:hover {
+    text-decoration: underline;
+    color: red;
+}
+
+.iright-dv .l7-dv .xl7-dv .cp1 {
+    color: orange;
+}
+
+.iright-dv .l7-dv .xl7-dv .cp2 {
+    color: rgb(31, 31, 226);
+}
+
+.iright-dv .l7-dv .xl7-dv .cp3 {
+    color: black;
+}
+
+.iright-dv .l7-dv .xl7-dv td {
+    display: inline-block;
+    margin: 0px 30px;
+}
+
+.iright-dv .l7-dv .xl7-dv>div {
+    float: left;
+}
+
+.iright-dv .l7-dv .xl7-dv caption {
+    text-align: left;
+    margin-left: 30px;
+}
+
+.body-dv .bnav-ctn>div {
+    display: inline-block;
+}
+
+.body-dv .bnav-ctn>.bhtext {
+    color: white;
+    background-color: #FF0036;
+    font-size: 16px;
+    font-weight: bold;
+    width: 170px;
+    padding: 10px;
+}
+
+.body-dv .bnav-ctn>.bhtext i {
+    margin-right: 10px;
+}
+
+.body-dv .bnav-ctn>.bli-dv li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.body-dv .bnav-ctn>.bli-dv img {
+    width: 110px;
+    height: 30px;
+    vertical-align: middle;
+}
+
+.body-dv .bnav-ctn>.bli-dv a {
+    text-decoration: none;
+    color: black;
+}
+
+.body-dv .bnav-ctn>.bli-dv a:hover {
+    color: red;
+}
+
+.body-dv hr {
+    border-color: red;
+}
+
+
+
+.body-dv .img-ctn .imgs>ul {
+    width: 1200px;
+    height: 500px;
+    overflow: hidden;
+}
+
+.body-dv .img-ctn .imgs>ul>li>img {
+    width: 1200px;
+    height: 500px;
+}
+
+.body-dv .img-ctn .imgs li {
+    position: absolute;
+    display: inline-block;
+    z-index: 9;
+    top: 0px;
+    left: -1200px;
+    transition: all linear 1s;
+}
+
+.ctn-1200 {
+    width: 1200px;
+    margin: 0px auto;
+}
+
+.body-dv {
+    background-color: #F5F5F5;
+}
+
+.body-dv>.img-ctn .qh-btn {
+    position: absolute;
+    z-index: 10;
+    top: 450px;
+    left: 550px;
+}
+
+.body-dv .qh-btn li {
+    display: inline-block;
+    margin: 3px;
+    width: 30px;
+    height: 5px;
+    background-color: black;
+    opacity: 0.5;
+}
+
+.body-dv .qh-btn a {
+    display: block;
+    width: 30px;
+    height: 5px;
+}
+
+.body-dv .qh-btn li:hover {
+    background-color: white;
+}
+
+.body-dv .img-ctn .imgs li:target {
+    left: 0px;
+}
+
+.body-dv .img-ctn .imgs li:first-child {
+    left: 0px;
+}
+
+.body-dv .img-ctn .imgs .tp-ul>li div {
+    position: absolute;
+    z-index: 10;
+    top: 0px;
+    right: 0px;
+}
+
+.body-dv .img-ctn .imgs .tp-ul>li .adp-fl {
+    top: 230px;
+    right: 0px;
+}
+
+.body-dv .img-ctn .nav-ctn {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: rgba(71, 66, 66, 0.623);
+    z-index: 10;
+}
+
+
+.body-dv .img-ctn .nav-ctn>.left-nav>ul>li {
+    list-style-type: none;
+    padding: 5px 0px;
+    color: white;
+    width: 160px;
+    padding-left: 30px;
+}
+
+.body-dv .img-ctn .nav-ctn>.left-nav>ul>li:hover {
+    background-color: white;
+}
+
+.body-dv .img-ctn .nav-ctn>.left-nav li a {
+    text-decoration: none;
+    color: white;
+    padding-right: 3px;
+}
+
+.body-dv .img-ctn .nav-ctn>.left-nav .r-c:hover {
+    color: rgb(214, 18, 61)
+}
+
+.body-dv .img-ctn .nav-ctn>.left-nav .r-c:hover a {
+    color: rgb(214, 18, 61)
+}
+
+.body-dv .img-ctn .nav-ctn>.left-nav .b-c:hover {
+    color: rgb(0, 110, 255);
+}
+
+.body-dv .img-ctn .nav-ctn>.left-nav .b-c:hover a {
+    color: rgb(0, 110, 255);
+}
+
+.body-dv .img-ctn .nav-ctn>.left-nav .p-c:hover {
+    color: rgb(50, 0, 189);
+}
+
+.body-dv .img-ctn .nav-ctn>.left-nav .p-c:hover a {
+    color: rgb(50, 0, 189);
+}
+
+.body-dv .img-ctn .nav-ctn>.left-nav .y-c:hover {
+    color: orange;
+}
+
+.body-dv .img-ctn .nav-ctn>.left-nav .y-c:hover a {
+    color: orange;
+}
+
+.body-dv .img-ctn .nav-ctn>.left-nav .g-c:hover {
+    color: rgb(0, 168, 132);
+}
+
+.body-dv .img-ctn .nav-ctn>.left-nav .g-c:hover a {
+    color: rgb(0, 168, 132);
+}
+
+.body-dv .img-ctn .nav-ctn li.item1 .right-nav {
+    width: 850px;
+    height: 500px;
+    position: absolute;
+    top: 0px;
+    left: 190px;
+    background-color: rgb(219, 219, 219);
+    z-index: 11;
+    display: none;
+}
+
+.body-dv .img-ctn .nav-ctn .right-nav>.item1-inner {
+    width: 850px;
+    height: 500px;
+    /* display: none; */
+    /* border: 1px solid red; */
+}
+
+.body-dv .img-ctn .nav-ctn .right-nav .left {
+    display: inline-block;
+    width: 575px;
+    padding: 19px 30px;
+    background-color: white;
+    /* border: 1px solid red; */
+}
+
+
+.body-dv .img-ctn .nav-ctn .right-nav .left>div div {
+    display: inline-block;
+}
+
+.body-dv .img-ctn .nav-ctn .right-nav .left>div .dv1 {
+    margin-right: 10px;
+    vertical-align: top;
+    padding-top: 9px;
+    font-size: 14px;
+    font-weight: bold;
+    /* border: 1px solid red; */
+}
+
+.body-dv .img-ctn .nav-ctn .right-nav .left>div .dv2 {
+    width: 450px;
+    padding: 10px 15px;
+    border-bottom: 1px dashed #ccc;
+    /* border: 1px solid red; */
+}
+
+.body-dv .img-ctn .nav-ctn .right-nav .left>div .dv2 li {
+    display: inline-block;
+    margin: 0px 3px;
+    /* border: 1px solid red; */
+}
+
+.body-dv .img-ctn .nav-ctn .right-nav .left>div .dv2 li a {
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+}
+
+.body-dv .img-ctn .nav-ctn li.item1 .right-nav .left>div .dv2 .r-c a {
+    color: rgb(214, 18, 61);
+    ;
+}
+
+.body-dv .img-ctn .nav-ctn li.item1 .right-nav .left>div .dv2 a:hover {
+    color: rgb(214, 18, 61);
+}
+
+.body-dv .img-ctn .nav-ctn li.item1 .right-nav .right {
+    display: inline-block;
+    width: 210px;
+    height: 500px;
+    vertical-align: top;
+    background-color: white;
+    /* border: 1px solid red; */
+}
+
+.body-dv .img-ctn .nav-ctn li.item1 .right-nav .right li {
+    display: inline-block;
+    float: left;
+}
+
+.body-dv .img-ctn .nav-ctn li.item1 .right-nav .right li img {
+    width: 102px;
+    height: 50px;
+}
+
+.body-dv .img-ctn .nav-ctn li.item1 .right-nav .right li .gi17 {
+    width: 210px;
+    height: 70px;
+}
+
+.body-dv .img-ctn .nav-ctn li.item1:hover .right-nav {
+    display: block;
+}
+
+.body-dv>.brandwall {
+    width: 1200px;
+    margin: 0px auto;
+    margin-top: 30px;
+    background-color: white;
+}
+
+.body-dv>.brandwall>div {
+    display: inline-block;
+
+}
+
+.body-dv>.brandwall>.w-center {
+    margin: 0px 5px;
+}
+
+.body-dv>.brandwall .w-heard {
+    padding: 15px 20px;
+}
+
+.body-dv>.brandwall .w-heard>div {
+    display: inline-block;
+}
+
+.body-dv>.brandwall .w-heard>.dv1 {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.body-dv>.brandwall .w-heard>.dv2 {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.body-dv>.brandwall .w-heard>.dv3 {
+    float: right;
+}
+
+.body-dv>.brandwall .w-heard>.dv3 a {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+}
+
+.body-dv>.brandwall .w-body img {
+    height: 315px;
+}
+
+.body-dv>.brand-list {
+    width: 1200px;
+    margin: 0px auto;
+    /* border: 1px solid red; */
+}
+
+.body-dv>.brand-list ul {
+    /* border: 1px solid red; */
+}
+
+.body-dv>.brand-list .brand-item {
+    display: inline-block;
+    float: left;
+    width: 120px;
+    height: 80px;
+    padding-top: 30px;
+    text-align: center;
+    position: relative;
+    background-color: white;
+}
+
+.body-dv>.brand-list .brand-item img {
+    width: 90px;
+    height: 40px;
+}
+
+.body-dv>.brand-list .brand-item a {
+    position: absolute;
+    padding: 32px 0px;
+    width: 120px;
+    top: 0px;
+    left: 0px;
+    color: black;
+    text-decoration: none;
+    opacity: 0;
+    transition: all linear 0.2s;
+    border: 1px solid black;
+}
+
+.body-dv>.brand-list .brand-item a:hover {
+    background-color: rgba(0, 0, 0, 0.829);
+    opacity: 0.829;
+}
+
+.body-dv>.brand-list .brand-item a>.coupon {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: white;
+    /* border: 1px solid red; */
+}
+
+.body-dv>.brand-list .brand-item a>.enter {
+    display: inline-block;
+    color: white;
+    padding: 2px 5px;
+    font-size: 10px;
+    background-color: red;
+    border-radius: 10px;
+}
+
+.body-dv>.brand-list .end-li {
+    padding-top: 0px;
+
+}
+
+.body-dv>.brand-list .brand-item>.end-h {
+    width: 100%;
+    height: 100%;
+    padding-top: 29px;
+    transition: all linear 0.2s;
+    background-color: white;
+}
+
+.body-dv>.brand-list .brand-item>.end-h:hover {
+    background-color: rgb(255, 0, 98);
+}
+
+.body-dv>.floot-ctn {
+    width: 1200px;
+    margin: 0px auto;
+}
+
+.body-dv>.floot-ctn>.hk-ctn {
+    margin-top: 30px;
+}
+
+.body-dv>.floot-ctn .hk-heard>div {
+    display: inline-block;
+}
+
+.body-dv>.floot-ctn .hk-heard>.left img {
+    width: 200px;
+    height: 25px;
+}
+
+.body-dv>.floot-ctn .hk-heard>.right {
+    float: right;
+}
+
+.body-dv>.floot-ctn .hk-heard>.right li {
+    display: inline-block;
+    margin: 0px 10px;
+}
+
+.body-dv>.floot-ctn .hk-heard>.right li a {
+    text-decoration: none;
+    color: black;
+}
+
+.body-dv>.floot-ctn .hk-heard>.right li a:hover {
+    padding-bottom: 2px;
+    border-bottom: 1px solid black;
+    padding-bottom: 3px;
+}
+
+.body-dv>.floot-ctn .hk-body li {
+    list-style-type: none;
+    float: left;
+    position: relative;
+    background-color: white;
+    width: 234px;
+    height: 300px;
+    margin: 3px;
+    /* border: 1px solid red; */
+}
+
+.body-dv>.floot-ctn .hk-body li a {
+    text-decoration: none;
+    display: inline-block;
+    color: black;
+    position: relative;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    /* border: 1px solid red; */
+}
+
+.body-dv>.floot-ctn .hk-body li a:hover {
+    border: 1px solid red;
+}
+
+.body-dv>.floot-ctn .hk-body li img {
+    width: 185px;
+    height: 185px;
+    margin-top: 15px;
+}
+
+.body-dv>.floot-ctn .hk-body .big-img img {
+    width: 235px;
+    height: 300px;
+    margin: 0px;
+}
+
+
+.body-dv>.floot-ctn .hk-body .small-img .text-ctn {
+    position: absolute;
+    top: 20px;
+    left: 10px;
+    /* border: 1px solid red; */
+}
+
+.body-dv>.floot-ctn .hk-body .small-img .text-ctn .t1 {
+    font-size: 20px;
+}
+
+.body-dv>.floot-ctn .hk-body .small-img .text-ctn .t2 {
+    font-size: 14px;
+    color: rgb(61, 0, 175)
+}
+
+.body-dv>.floot-ctn .hk-body .small-img img {
+    width: 170px;
+    height: 170px;
+    margin-top: 50px;
+    /* border: 1px solid red; */
+}
+
+
+.body-dv>.floot-ctn .hk-body .big-img .text-ctn {
+    position: absolute;
+    top: 180px;
+    left: 0px;
+    /* border: 1px solid red; */
+}
+
+.body-dv>.floot-ctn .hk-body .big-img .text-ctn div {
+    display: inline-block;
+    float: left;
+}
+
+.body-dv>.floot-ctn .hk-body .big-img .text-ctn .t1 {
+    background-color: black;
+    width: 32px;
+    color: white;
+    padding: 10px 20px;
+}
+
+.body-dv>.floot-ctn .hk-body .big-img .text-ctn .t2 {
+    color: white;
+    width: 70px;
+    padding: 10px 20px;
+    background-color: rgba(0, 0, 0, 0.719);
+    padding-right: 30px;
+}
+
+.body-dv>.floot-ctn .hk-body .big-img .bq {
+    position: absolute;
+    color: white;
+    bottom: 15px;
+    right: 10px;
+}
+
+.body-dv>.floot-ctn .hk-body .itro {
+    padding: 8px 50px;
+    font-size: 13px;
+}
+
+.body-dv>.floot-ctn .hk-body .price {
+    font-size: 20px;
+    color: red;
+}
+
+.body-dv>.floot-ctn .floot-heard div {
+    display: inline-block;
+    margin: 10px 0px;
+}
+
+.body-dv>.floot-ctn>.floot-inner {
+    margin-top: 20px;
+}
+
+.body-dv>.floot-ctn>.floot-inner>.floot-heard .h1 {
+    font-size: 20px;
+    padding-left: 5px;
+    margin-right: 5px;
+    border-left: 3px solid black;
+}
+
+.body-dv>.floot-ctn>.floot-inner>.floot-body>div {
+    display: inline-block;
+}
+
+
+.body-dv>.floot-ctn>.floot-inner>.floot-body .left a {
+    display: block;
+    width: 235px;
+    height: 618px;
+    color: white;
+    text-decoration: none;
+    position: relative;
+    /* border: 1px solid red; */
+}
+
+.body-dv>.floot-ctn>.floot-inner>.floot-body .left img {
+    width: 235px;
+    height: 618px;
+}
+
+.body-dv>.floot-ctn>.floot-inner>.floot-body .left .text-ctn {
+    position: absolute;
+    top: 77%;
+    left: 15px;
+    /* border: 1px solid red; */
+}
+
+.body-dv>.floot-ctn>.floot-inner>.floot-body .left .text-ctn .t1 {
+    float: left;
+    background-color: black;
+    width: 32px;
+    color: white;
+    padding: 10px 20px;
+}
+
+.body-dv>.floot-ctn>.floot-inner>.floot-body .left .text-ctn .t2 {
+    float: left;
+    color: white;
+    width: 80px;
+    padding: 10px 20px;
+    background-color: rgba(0, 0, 0, 0.719);
+    padding-right: 30px;
+}
+
+.body-dv>.floot-ctn>.floot-inner>.floot-body .left .bq {
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+}
+
+.body-dv>.floot-ctn>.floot-inner>.floot-body .right {
+    display: inline-block;
+    /* border: 1px solid red; */
+}
+
+.body-dv>.floot-ctn>.floot-inner>.floot-body .right a {
+    display: block;
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+    /* border: 1px solid black; */
+}
+
+.body-dv>.floot-ctn>.floot-inner>.floot-body .right a:hover {
+    border: 1px solid red;
+}
+
+.body-dv>.floot-ctn>.floot-inner>.floot-body .right ul {
+    display: inline-block;
+    width: 958px;
+}
+
+.body-dv>.floot-ctn>.floot-inner>.floot-body .right li {
+    float: left;
+    display: inline-block;
+    margin: 5px 5px;
+    list-style-type: none;
+    width: 229px;
+    height: 300px;
+    text-align: center;
+    background-color: white;
+    /* border: 1px solid red; */
+}
+
+.body-dv>.floot-ctn>.floot-inner>.floot-body .right img {
+    width: 185px;
+    height: 185px;
+    margin-top: 20px;
+}
+
+.body-dv>.floot-ctn>.floot-inner>.floot-body .right .t1 {
+    display: inline-block;
+    font-size: 14px;
+    width: 160px;
+    height: 40px;
+    overflow: hidden;
+    color: black;
+}
+
+.body-dv>.floot-ctn>.floot-inner>.floot-body .right .price {
+    color: red;
+    font-size: 20px;
+}
+
+.body-dv>.gus-ctn {
+    width: 1200px;
+    margin: 0px auto;
+    margin-top: 20px;
+}
+
+.body-dv>.gus-ctn>.gus-head {
+    margin: 15px 0px;
+    color: rgb(155, 155, 155);
+    font-size: 18px;
+    text-align: center;
+}
+
+.body-dv>.gus-ctn>.gus-head i {
+    color: red;
+}
+
+.body-dv>.gus-ctn>.gus-body ul {
+    margin: 5px 0px;
+}
+
+.body-dv>.gus-ctn>.gus-body li {
+    float: left;
+    display: inline-block;
+    margin: 5px 5px;
+    list-style-type: none;
+    width: 229px;
+    height: 300px;
+    text-align: center;
+    background-color: white;
+}
+
+.body-dv>.gus-ctn>.gus-body a {
+    width: 100%;
+    height: 100%;
+    display: block;
+    text-decoration: none;
+    color: black;
+}
+
+.body-dv>.gus-ctn>.gus-body a:hover {
+    border: 1px solid red;
+}
+
+.body-dv>.gus-ctn>.gus-body img {
+    margin-top: 20px;
+    width: 185px;
+    height: 185px;
+    display: inline-block;
+}
+
+.body-dv>.gus-ctn>.gus-body .t1 {
+    display: inline-block;
+    font-size: 14px;
+    width: 160px;
+    height: 40px;
+    overflow: hidden;
+}
+
+.body-dv>.gus-ctn>.gus-body .price {
+    color: red;
+    font-size: 20px;
+}
