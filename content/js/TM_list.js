@@ -42,6 +42,7 @@ window.onload = function () {
     ]
     for (var i = 2; i < 31; i++) {
         rnd = parseInt(Math.floor(Math.random() * 10));
+        rnd1 = parseInt(Math.floor(Math.random() * 10));
         rnd2 = parseInt(Math.floor(Math.random() * 10));
         rnd3 = parseInt(Math.floor(Math.random() * 10));
         sw = parseInt(rnd / 10).toString();
@@ -51,7 +52,7 @@ window.onload = function () {
             "TM_list_pinfo01.jpg",
             "TM_list_pinfo" + picid + ".jpg"
         );
-        newadd = newadd.replace("七彩虹RTX2060 6G Ultra/AD/Vulcan", pdname_arr[rnd]);
+        newadd = newadd.replace("七彩虹RTX2060 6G Ultra/AD/Vulcan", pdname_arr[rnd1]);
         newadd = newadd.replace("2599", price_arr[rnd2]);
         newadd = newadd.replace("和瑟数码专营店", shopname_arr[rnd3]);
         newadd = newadd.replace("855", parseInt(rnd3 * rnd * 9.7));
