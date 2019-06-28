@@ -7,7 +7,7 @@
 #tmall-ensure {
     width: 1190px;
     height: 100px;
-    background: url(https://img.alicdn.com/tfs/TB14dANRXXXXXbdXXXXXXXXXXXX-1190-100.jpg) no-repeat;
+    background: url("../image/footer/TB14dANRXXXXXbdXXXXXXXXXXXX-1190-100.jpg") no-repeat;
     margin: 25px auto;
     padding: 0px;
 }
@@ -24,7 +24,7 @@
     border-top-color: rgb(237, 237, 237);
 
 
-    background-image: url(https://img.alicdn.com/tfs/TB1dl28RXXXXXbzaFXXXXXXXXXX-136-50.png);
+    background-image: url("../image/footer/TB1dl28RXXXXXbzaFXXXXXXXXXX-136-50.png");
     background-repeat: no-repeat;
     background-size: 68px 25px;
     background-position: 40px 190px;
@@ -119,7 +119,7 @@
 
     font-size: 0px;
     padding: 30px 0 10px;
-    background: url(http://img.alicdn.com/tfs/TB1dPA5RXXXXXboaXXXXXXXXXXX-70-20.png) right 0 no-repeat;
+    background: url("../image/footer/TB1dPA5RXXXXXboaXXXXXXXXXXX-70-20.png") right 0 no-repeat;
     background-position: 265px 3px;
 
 }
@@ -219,7 +219,7 @@
     color: #333;
     padding-left: 20px;
     margin: 30px 0 10px 0;
-    background-image: url(https://img.alicdn.com/tfs/TB1Hm3sRXXXXXaRXVXXXXXXXXXX-165-206.png);
+    background-image: url("../image/footer/TB1Hm3sRXXXXXaRXVXXXXXXXXXX-165-206.png");
     background-repeat: no-repeat;
     background-position: -113px -23px;
     font-size: 14px;

@@ -281,6 +281,7 @@ body {
     width: 128px;
     top: 34px;
     left: -84px;
+    z-index: 11;
 }
 
 .iright-dv .l6-dv .xl6-dv .ilk {

@@ -90,6 +90,7 @@ li>i {
     width: 250px;
     height: 42px;
     border: 1px solid #E6E6E6;
+    margin-right: 156px;
 }
 
 .yzm span {
@@ -97,12 +98,12 @@ li>i {
     font-weight: bold;
 }
 
-.yzm-t {
+/* .yzm-t {
     width: 120px;
     height: 25px;
     background: url("../image/Logon_image/yz.jpg") no-repeat;
     float: right;
-}
+} */
 
 .next {
     margin-top: 16px;
@@ -120,7 +121,6 @@ li>i {
     font-weight: bold;
     font-size: 22px;
 }
-
 
 .next-t :hover {
     color: white;
