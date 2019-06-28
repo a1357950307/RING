@@ -1165,90 +1165,6 @@
     /* border: 1px solid red; */
 }
 
-/* 侧边栏 */
-.suspension {
-    position: fixed;
-    width: 35px;
-    top: 0px;
-    bottom: 0px;
-    right: 0px;
-    background: rgb(0, 0, 0);
-    z-index: 10;
-    min-height: 650px;
-}
-
-.suspension span {
-    display: block;
-    color: white;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-left: 8px;
-    padding-right: 8px;
-    text-align: center;
-}
-
-.suspension .sus-main {
-    position: absolute;
-    display: block;
-    top: 30%;
-    height: 300px;
-}
-
-.suspension .sus-foot {
-    position: absolute;
-    display: block;
-    bottom: 0px;
-    height: 100px;
-}
-
-.suspension .sus-main .susm-sp1 i {
-    display: block;
-    background: url("../image/TM_list/TM_list_smtm.png") no-repeat center;
-    width: 35;
-    height: 35px;
-}
-
-.suspension .sus-main span {
-    margin-bottom: 10px;
-}
-
-.suspension .sus-foot span {
-    margin-bottom: 5px;
-}
-
-.suspension .sus-main span i {
-    font-size: 20px;
-}
-
-.suspension .sus-main .susm-sp1 {
-    padding-left: 5px;
-    padding-right: 5px;
-}
-
-.suspension .sus-main .susm-sp2 {
-    border-top: 1px solid lightgray;
-    border-bottom: 1px solid lightgray;
-    padding-top: 15px;
-    padding-bottom: 15px;
-}
-
-
-.suspension .sus-main .susm-sp2 i {
-    font-size: 18px;
-    /* color: rgb(255, 0, 54); */
-}
-
-.suspension .sus-foot .susf-sp3 a {
-    display: block;
-    font-size: 10px;
-    font-weight: bold;
-    color: white;
-}
-
-
-.suspension>div span:hover {
-    background: rgb(255, 0, 54);
-}
 
 
 
@@ -1483,4 +1399,164 @@
     background-repeat: no-repeat;
     background-position: -113px -23px;
     font-size: 14px;
+}
+
+
+
+.rption {
+    position: relative;
+}
+
+.suspension {
+    position: fixed;
+    width: 35px;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    background: rgb(0, 0, 0);
+    z-index: 10;
+    min-height: 650px;
+    font-size: 12px;
+}
+
+.suspension span {
+    display: block;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 8px;
+    padding-right: 8px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.suspension .sus-main {
+    position: absolute;
+    display: block;
+    top: 30%;
+    height: 300px;
+}
+
+.suspension .sus-foot {
+    position: absolute;
+    display: block;
+    bottom: 0px;
+    height: 100px;
+}
+
+.suspension .sus-main .susm-sp1>i {
+    display: block;
+    background: url("../image/TM_list/TM_list_smtm.png") no-repeat center;
+    width: 35;
+    height: 30px;
+}
+
+.suspension .sus-main>span {
+    margin-bottom: 10px;
+}
+
+.suspension .sus-foot span {
+    margin-bottom: 5px;
+}
+
+.suspension .sus-main span>i {
+    font-size: 20px;
+}
+
+.suspension .sus-main .susm-sp1 {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.suspension .sus-main .susm-sp2 {
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+
+.suspension .sus-main .susm-sp2>i {
+    font-size: 18px;
+    /* color: rgb(255, 0, 54); */
+}
+
+.suspension .sus-foot .susf-sp3 a {
+    display: block;
+    font-size: 10px;
+    font-weight: bold;
+    color: white;
+}
+
+
+.suspension>div span:hover {
+    background: rgb(255, 0, 54);
+}
+
+.suspension .pop-up {
+    width: 96px;
+    height: 30px;
+    padding: 0px;
+    position: absolute;
+    top: 0px;
+    left: -90px;
+    overflow: hidden;
+}
+
+.suspension .pop-big {
+    top: 5px;
+}
+
+.suspension .pop-up>.pop-inner {
+    width: 100px;
+    position: absolute;
+    top: 0px;
+    left: -96px;
+    opacity: 0;
+    transition: all linear 0.4s;
+}
+
+
+.suspension .pop-up>.pop-inner>div {
+    display: inline-block;
+    float: left;
+    background-color: rgb(92, 92, 92);
+    padding: 8px 20px;
+}
+
+.suspension .pop-up>.pop-inner>i {
+    display: inline-block;
+    float: left;
+    line-height: 30px;
+    color: rgb(92, 92, 92);
+}
+
+.suspension span:hover {
+    overflow: visible;
+}
+
+.suspension .susm-sp1:hover .pop1 {
+    left: 0px;
+    opacity: 1;
+    overflow: visible;
+}
+
+.suspension .susm-sp3:hover .pop2 {
+    left: 0px;
+    opacity: 1;
+}
+
+.suspension .susm-sp4:hover .pop3 {
+    left: 0px;
+    opacity: 1;
+}
+
+.suspension .susm-sp5:hover .pop4 {
+    left: 0px;
+    opacity: 1;
+}
+
+.suspension .susf-sp1:hover .pop5 {
+    left: 0px;
+    opacity: 1;
 }
