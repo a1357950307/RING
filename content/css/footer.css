@@ -1,0 +1,226 @@
+#page-content {
+
+    width: 1190px;
+    margin: auto;
+}
+
+#tmall-ensure {
+    width: 1190px;
+    height: 100px;
+    background: url(https://img.alicdn.com/tfs/TB14dANRXXXXXbdXXXXXXXXXXXX-1190-100.jpg) no-repeat;
+    margin: 25px auto;
+    padding: 0px;
+}
+
+#tmall-desc {
+    width: 1190px;
+    height: 190px;
+    margin: auto;
+    padding-top: 25px;
+
+    border-top: 1px solid rgb(237, 237, 237);
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-top-color: rgb(237, 237, 237);
+
+
+    background-image: url(https://img.alicdn.com/tfs/TB1dl28RXXXXXbzaFXXXXXXXXXX-136-50.png);
+    background-repeat: no-repeat;
+    background-size: 68px 25px;
+    background-position: 40px 190px;
+}
+
+#tmall-desc>div {
+    float: left;
+    width: 186px;
+    margin-right: 5px;
+    margin-left: 45px;
+
+}
+
+#tmall-desc span {
+    font-size: 16px;
+    font-weight: 700;
+    height: 30px;
+    line-height: 30px;
+    color: #000;
+
+}
+
+#tmall-desc a {
+    width: 100px;
+    text-align: left;
+    height: 20px;
+    line-height: 20px;
+    color: rgb(139, 139, 139);
+    display: block;
+    font-size: 12px;
+}
+
+#tmall-copyright {
+    border-top: 2px solid #FF0036;
+    background: #000;
+    text-align: left;
+    height: auto;
+}
+
+
+
+
+#tmall-copyright .footer-tmallinfo {
+
+    width: 1190px;
+    margin: 0 auto;
+    line-height: 25px;
+    color: #fff;
+}
+
+#tmall-copyright .footer-tmallinfo a {
+    color: #fff;
+    font-size: 12px;
+}
+
+#tmall-copyright .footer-otherlink {
+
+    width: 1190px;
+    margin: 0 auto;
+    line-height: 25px;
+    color: #fff;
+}
+
+#tmall-copyright .footer-otherlink a {
+    color: #fff;
+    font-size: 12px;
+    margin-right: 3px;
+}
+
+#tmall-copyright .footer-copyright {
+    width: 1190px;
+    margin: 0 auto;
+    line-height: 25px;
+    color: #fff;
+}
+
+#tmall-copyright .footer-copyright span {
+    color: #a4a4a4;
+    line-height: 20px;
+    font-size: 12px;
+    margin-right: 50px;
+}
+
+
+.rate-page {
+    width: 600px;
+    margin: auto;
+}
+
+.rate-page-con {
+    margin: 20px 30px 20px 0;
+
+    font-size: 0px;
+    padding: 30px 0 10px;
+    background: url(http://img.alicdn.com/tfs/TB1dPA5RXXXXXboaXXXXXXXXXXX-70-20.png) right 0 no-repeat;
+    background-position: 265px 3px;
+
+}
+
+.rate-page-con a {
+
+    border: 1px solid #e5e5e5;
+    color: #2953a6;
+    font-size: 14px;
+    height: 27px;
+    line-height: 27px;
+    padding: 10px 14px;
+    border-width: 1px 1px 1px 0;
+
+}
+
+.rate-page-con a:hover {
+
+    background-color: rgb(229, 229, 229);
+
+
+}
+
+.rate-page-con span {
+
+    color: #999;
+    font-size: 12px;
+
+}
+
+.rate-page-con input {
+    display: inline;
+    font-size: 12px;
+}
+
+.keywords {
+    font-size: 12px;
+    border: 1px solid #F3F0EE;
+    padding: 5px 100px 5px 10px;
+}
+
+.keywords span {
+    color: #B0A59F;
+    margin-right: 40px;
+}
+
+.keywords a {
+    border-right: 1px solid #DCCCC4;
+    color: #806F66;
+    padding: 0 15px;
+}
+
+.hot {
+    height: 45px;
+    color: #666;
+    line-height: 45px;
+}
+
+.footerSearch {
+    padding: 27px 0;
+    background-color: #f4f4f4;
+    margin-top: 20px;
+}
+
+.footerSearch-main {
+    border: 2px solid #FF0036;
+    width: 504px;
+    margin: auto;
+
+}
+
+.footerSearch-main .search-input-text {
+
+    padding: 2px;
+    width: 420px;
+    border: 0px;
+    float: left;
+    font-size: 14px;
+    height: 21px;
+
+
+}
+
+.footerSearch-main .search-button {
+    color: white;
+    font-weight: 300;
+    border: 0px;
+    width: 80px;
+    height: 25px;
+    background-color: #FF0036;
+    float: left;
+    font-size: 15px;
+    font-family: '\5FAE\8F6F\96C5\9ED1', arial, "\5b8b\4f53";
+}
+
+.feed {
+    color: #333;
+    padding-left: 20px;
+    margin: 30px 0 10px 0;
+    background-image: url(https://img.alicdn.com/tfs/TB1Hm3sRXXXXXaRXVXXXXXXXXXX-165-206.png);
+    background-repeat: no-repeat;
+    background-position: -113px -23px;
+    font-size: 14px;
+}

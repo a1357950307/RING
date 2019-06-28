@@ -1,0 +1,83 @@
+.suspension {
+    position: fixed;
+    width: 35px;
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    background: rgb(0, 0, 0);
+    z-index: 10;
+    min-height: 650px;
+}
+
+.suspension span {
+    display: block;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 8px;
+    padding-right: 8px;
+    text-align: center;
+}
+
+.suspension .sus-main {
+    position: absolute;
+    display: block;
+    top: 30%;
+    height: 300px;
+}
+
+.suspension .sus-foot {
+    position: absolute;
+    display: block;
+    bottom: 0px;
+    height: 100px;
+}
+
+.suspension .sus-main .susm-sp1 i {
+    display: block;
+    background: url("../image/TM_list/TM_list_smtm.png") no-repeat center;
+    width: 35;
+    height: 35px;
+}
+
+.suspension .sus-main span {
+    margin-bottom: 10px;
+}
+
+.suspension .sus-foot span {
+    margin-bottom: 5px;
+}
+
+.suspension .sus-main span i {
+    font-size: 20px;
+}
+
+.suspension .sus-main .susm-sp1 {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.suspension .sus-main .susm-sp2 {
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+
+.suspension .sus-main .susm-sp2 i {
+    font-size: 18px;
+    /* color: rgb(255, 0, 54); */
+}
+
+.suspension .sus-foot .susf-sp3 a {
+    display: block;
+    font-size: 10px;
+    font-weight: bold;
+    color: white;
+}
+
+
+.suspension>div span:hover {
+    background: rgb(255, 0, 54);
+}

@@ -1,0 +1,663 @@
+.head>div {
+    padding-left: 15px;
+}
+
+.mg1200 {
+    width: 1200px;
+    margin: 0px auto;
+}
+
+.head .head-index {
+    background: rgb(242, 242, 242);
+}
+
+.head .head-index li {
+    display: inline-block;
+    vertical-align: middle;
+    padding-right: 0px;
+}
+
+.head .head-index li a {
+    color: rgb(153, 153, 153);
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 5px;
+    padding-left: 5px;
+    display: block;
+}
+
+.head .head-index .fa {
+    font-size: 15px;
+    color: rgb(255, 0, 54);
+}
+
+.head .head-index li a:hover {
+    color: rgb(255, 0, 54);
+    text-decoration: underline;
+}
+
+.head .head-index .hi-ulleft {
+    float: left;
+}
+
+.head .head-index .hi-ulright {
+    float: right;
+}
+
+.head .head-index .hi-ulright .hiu-change .fa-angle-up {
+    display: none;
+}
+
+.head .head-index .hi-ulright .hiu-change:hover .fa-angle-up {
+    display: inline;
+}
+
+.head .head-index .hi-ulright .hiu-change:hover .fa-angle-down {
+    display: none;
+}
+
+.head .head-index .hi-ulright .hiur-block a:hover {
+    background: white;
+}
+
+.head-search {
+    padding-top: 25px;
+    padding-bottom: 15px;
+}
+
+.head-search .hs-mg {
+    position: relative;
+}
+
+.head-search .hs-logo {
+    float: left;
+}
+
+.head-search .hs-logo .hsl-sp1 {
+    display: block;
+    height: 27px;
+    width: 190px;
+    background: url("../image/TM_list/TM_list_logo.png");
+}
+
+.head-search .hs-searchbox {
+    float: left;
+    margin-left: 105px;
+}
+
+.head-search .hs-searchbox .hss-d1 {
+    width: 595px;
+    height: 30px;
+    font-size: 0px;
+    border: 3px red solid;
+}
+
+.head-search .hs-searchbox .hss-d1 input[type=text] {
+    text-indent: 5px;
+    width: 500px;
+    height: 30px;
+    border: none;
+}
+
+.head-search .hs-searchbox .hss-d1 input[type=button] {
+    width: 95px;
+    height: 30px;
+    border: none;
+    background: red;
+    color: white;
+    cursor: pointer;
+}
+
+.head-search .hs-searchbox .hss-d2 {
+    padding-top: 10px;
+}
+
+.head-search .hs-searchbox .hss-d2 span {
+    display: inline-block;
+    border-right: 1px rgb(204, 204, 204) solid;
+    padding-right: 15px;
+}
+
+.head-search .hs-searchbox .hss-d2 span a {
+    color: rgb(153, 153, 153);
+}
+
+.head-search .hs-newuser {
+    position: absolute;
+    top: -25px;
+    right: 0px;
+}
+
+.head-search .hs-newuser img {
+    height: 80px;
+}
+
+/* 顶部参数标签栏 */
+.hlabel .mg1200 {
+    border-top: rgb(229, 229, 229) 1px solid;
+}
+
+.hlabel .hl-head {
+    padding-top: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 5px;
+    padding-bottom: 18px;
+}
+
+.hlabel .hl-head .hlh-left {
+    float: left;
+}
+
+.hlabel .hl-head .hlh-left span {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.hlabel .hl-head .hlh-left .hlh-left-sp2 {
+    border: 1px solid rgb(153, 153, 153);
+    font-size: 0px;
+}
+
+.hlabel .hl-head .hlh-left .hlh-left-sp2 input {
+    display: inline-block;
+    border: none;
+    height: 20px;
+    width: 135px;
+    outline: none;
+    vertical-align: middle;
+}
+
+.hlabel .hl-head .hlh-left .hlh-left-sp2 a {
+    display: inline-block;
+    height: 20px;
+    width: 30px;
+    text-align: center;
+    font-size: 15px;
+    vertical-align: middle;
+}
+
+.hlabel .hl-head .hlh-right {
+    padding-top: 5px;
+    float: right;
+    color: #999;
+}
+
+.hlabel .hl-main {
+    border: 2px solid #999;
+}
+
+.mg120 {
+    width: 120px;
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-bottom: 12px;
+    background: rgb(245, 245, 245);
+    color: rgb(176, 165, 159);
+}
+
+.hlabel .hlm-left {
+    float: left;
+    height: 100%;
+}
+
+.hlabel .hl-main .hlm-right {
+    float: left;
+    padding-top: 10px;
+    padding-left: 30px;
+    width: 1028px;
+}
+
+.hlabel .hl-main .hlm-right .hlmr-left {
+    float: left;
+}
+
+.hlabel .hl-main .hlm-right .hlmr-left li {
+    display: inline-block;
+    margin-right: 30px;
+}
+
+.hlabel .hl-main .hlm-right .hlmr-right {
+    float: right;
+}
+
+.hlabel .hl-main .hlm-right .hlmr-right a {
+    display: inline-block;
+    margin-right: 10px;
+    padding: 0px 5px;
+    border: 1px solid white;
+}
+
+.hlabel .hl-main .hlm-right .hlmr-right .hlmrr-a1 {
+    background: rgb(240, 240, 240);
+}
+
+.hlabel .hl-main .hlm-right .hlmr-right .hlmrr-a1:hover {
+    border: 1px solid lightgray;
+}
+
+.hlabel .hl-foot {
+    border: 1px solid lightgray;
+    border-top: none;
+}
+
+.hlabel .hl-foot>div {
+    float: left;
+}
+
+.hlabel .hl-foot .hlf-right {
+    padding-top: 10px;
+    padding-left: 30px;
+    width: 1028px;
+}
+
+.hlabel .hl-foot .hlf-right a {
+    display: inline-block;
+}
+
+.hlabel .hl-foot .hlf-right .hlfr-left {
+    float: left;
+}
+
+.hlabel .hl-foot .hlf-right .hlfr-right {
+    padding-right: 10px;
+    float: right;
+}
+
+/* 悬浮商品筛选栏 */
+.hlabel .hl-screen {
+    padding: 5px 5px;
+    background: rgb(250, 249, 249);
+    margin-top: 10px;
+}
+
+.hlabel .hl-screen>div {
+    float: left;
+    margin-right: 7px;
+}
+
+.hlabel .hl-screen>div {
+    background: white;
+    border: 1px solid lightgray;
+    border-right: none;
+}
+
+.hlabel .hl-screen .hls-d1 ul li {
+    float: left;
+    border-right: 1px solid lightgray;
+}
+
+.hlabel .hl-screen .hls-d1 li a {
+    display: block;
+    padding: 5px 5px;
+}
+
+.hlabel .hl-screen .hls-d1 .hlsd1-li1 {
+    background: rgb(250, 249, 249);
+}
+
+.hlabel .hl-screen .hls-d1 .hlsd1-li1 a {
+    color: red;
+}
+
+.hlabel .hl-screen .hls-d2 ul li {
+    border-right: 1px solid lightgray;
+    float: left;
+    padding: 5px 5px;
+    padding-right: 10px;
+}
+
+.hlabel .hl-screen .hls-d2 ul .hlsd2-li1 {
+    background: rgb(250, 249, 249);
+}
+
+.hlabel .hl-screen .hls-d2 ul li select {
+    border: none;
+    outline: none;
+    font-size: 12px;
+}
+
+.hlabel .hl-screen .hls-d3 ul li {
+    border-right: 1px solid lightgray;
+    float: left;
+    background: white;
+    padding: 1px 1px;
+}
+
+.hlabel .hl-screen .hls-d3 input {
+    height: 25px;
+    width: 45px;
+    border: none;
+    outline: none;
+}
+
+.hlabel .hl-screen .hls-d3 i {
+    padding: 5px 5px;
+    text-align: center;
+}
+
+.hlabel .hl-screen .hls-d4 {
+    background: white;
+    width: 300px;
+}
+
+.hlabel .hl-screen .hls-d4 ul {
+    float: left;
+}
+
+.hlabel .hl-screen .hls-d4 ul li {
+    padding: 5px 5px;
+    float: left;
+    border: none;
+}
+
+.hlabel .hl-screen .hls-d4>.hlsd4-right {
+    float: right;
+    border-right: 1px solid lightgray;
+}
+
+.hlabel .hl-screen .hls-d4>.hlsd4-right a {
+    padding: 5px 5px;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.hlabel .hl-screen .hls-d5 ul li {
+    padding: 5px 5px;
+    float: left;
+    border-right: 1px solid lightgray;
+}
+
+.hlabel .hl-screen .hls-d6 {
+    float: right;
+    padding: 5px 5px;
+    border: none;
+    background: none;
+}
+
+.hlabel .hl-screen .hls-d6 div span a {
+    display: inline-block;
+    font-size: 15px;
+    padding: 0px 3px;
+    border: 1px solid rgb(153, 153, 153);
+    background: rgba(173, 173, 173, 0.507)
+}
+
+.hlabel .hl-screen .hls-d6 div span .hlsd6-a2 {
+    background: white;
+}
+
+.main .main-mg {
+    padding: 0px 5px;
+    margin-top: 10px;
+}
+
+.main .main-tempborder {
+    display: inline-block;
+    border: 3px solid white;
+}
+
+.main .main-tempborder:hover {
+    border: 3px solid red;
+}
+
+.main .main-product {
+    display: inline-block;
+    padding: 4px 4px 0px;
+    border: 1px solid rgb(238, 238, 238);
+    height: 340px;
+    width: 220px;
+    position: relative;
+}
+
+.main .main-product>a {
+    display: block;
+}
+
+.main .main-product span {
+    display: block;
+}
+
+
+.main .main-product .mp-pinfo .mppi-sp1 {
+    width: 100%;
+    height: 220px;
+    font-size: 0px;
+}
+
+.main .main-product .mp-pinfo .mppi-sp1 img {
+    width: 100%;
+}
+
+.main .main-product .mp-pinfo .mppi-sp2 {
+    padding-top: 7px;
+}
+
+.main .main-product .mp-pinfo .mppi-sp2>span {
+    font-size: 18px;
+    color: red;
+    font-weight: 600;
+}
+
+.main .main-product .mp-pinfo .mppi-sp2>span i {
+    font-size: 12px;
+}
+
+.main .main-product .mp-pinfo .mppi-sp3 {
+    padding-top: 7px;
+}
+
+.main .main-product .mp-pinfo .mppi-sp4 {
+    padding-top: 7px;
+}
+
+.main .main-product .mp-pinfo .mppi-sp4 a {
+    text-decoration: underline;
+}
+
+.main .main-product .mp-sinfo {
+    position: absolute;
+    bottom: 0px;
+    left: 4px;
+    right: 4px;
+    border-top: 1px solid rgb(238, 238, 238);
+}
+
+.main .main-product .mp-sinfo span {
+    display: inline-block;
+    font-size: 10px;
+}
+
+.main .main-product .mp-sinfo>span {
+    padding: 5px 5px 0px;
+    border-right: 1px solid rgb(238, 238, 238);
+    color: rgb(153, 153, 153);
+    padding-bottom: 5px;
+}
+
+.main .main-product .mp-sinfo .mpsi-sp1 {
+    float: left;
+    width: 75px;
+}
+
+.main .main-product .mp-sinfo .mpsi-sp1>span {
+    color: rgb(181, 124, 91);
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.main .main-product .mp-sinfo .mpsi-sp2 {
+    float: left;
+    width: 75px;
+    border-right: none;
+}
+
+.main .main-product .mp-sinfo .mpsi-sp2 a {
+    color: rgb(110, 136, 187);
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.main .main-product .mp-sinfo .mpsi-sp3 {
+    float: right;
+    border-right: none;
+    border-left: 1px solid rgb(238, 238, 238);
+    padding: 5px 10px 0px;
+    padding-bottom: 0px;
+}
+
+.main .main-product .mp-sinfo .mpsi-sp3 img {
+    width: 15px;
+}
+
+/* 页面跳转栏 */
+.main .main-pageturn {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.main .main-pageturn>form>div {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 0px;
+}
+
+.main .main-pageturn>form>div>div {
+    display: inline-block;
+}
+
+.main .main-pageturn>form>div .mpt-left {
+    vertical-align: middle;
+    float: left;
+}
+
+.main .main-pageturn>form>div .mpt-left ul li {
+    display: inline-block;
+    border: 1px solid rgb(229, 229, 229);
+    border-left: none;
+}
+
+.main .main-pageturn>form>div .mpt-left ul li a {
+    display: block;
+    padding: 10px 13px;
+    color: rgb(41, 83, 166);
+    font-size: 15px;
+}
+
+.main .main-pageturn>form>div .mpt-left ul li a:hover {
+    text-decoration: underline;
+}
+
+.main .main-pageturn>form>div .mpt-left ul .mptl-li1 {
+    border-left: 1px solid rgb(229, 229, 229);
+}
+
+.main .main-pageturn>form>div .mpt-left ul .mptl-li1 a,
+.main .main-pageturn>form>div .mpt-left ul .mptl-li2 a {
+    background: rgb(240, 240, 240);
+    color: rgb(153, 153, 153);
+}
+
+
+.main .main-pageturn>form>div .mpt-left ul .mptl-li5 {
+    border: none;
+    border-right: rgb(229, 229, 229) 1px solid;
+}
+
+/* 右侧 */
+.main .main-pageturn>form>div .mpt-right {
+    float: left;
+}
+
+.main .main-pageturn>form>div .mpt-right>div span {
+    display: inline-block;
+    padding: 10px 15px;
+    font-size: 12px;
+    color: rgb(153, 153, 153);
+}
+
+.main .main-pageturn>form>div .mpt-right>div span input {
+    margin: 0px 5px 0px;
+}
+
+.main .main-pageturn>form>div .mpt-right>div span input[type=text] {
+    width: 35px;
+    height: 20px;
+}
+
+.main .main-pageturn>form>div .mpt-right>div span input[type=button] {
+    width: 50px;
+    height: 20px;
+}
+
+/* 底部搜索栏 */
+.main .main-bottomsearch {
+    padding-top: 25px;
+}
+
+.main .main-bottomsearch .mbs-head {
+    padding: 10px 10px 5px;
+    border: 1px solid rgb(240, 240, 240);
+}
+
+
+.main .main-bottomsearch .mbs-head span,
+.main .main-bottomsearch .mbs-head ul {
+    display: inline-block;
+}
+
+.main .main-bottomsearch .mbs-head ul li {
+    display: inline-block;
+    border-right: 1px solid rgb(220, 205, 195);
+}
+
+.main .main-bottomsearch .mbs-head ul li a {
+    padding: 0px 15px;
+    color: rgb(128, 111, 127);
+}
+
+.main .main-bottomsearch .mbs-head span {
+    padding-right: 35px;
+    color: rgb(175, 165, 160);
+}
+
+/* 底部搜索栏-搜索栏部分 */
+.main .main-bottomsearch .mbs-main {
+    padding: 25px 0px;
+    background: rgb(244, 244, 244);
+}
+
+.main .main-bottomsearch .mbs-main>div {
+    width: 595px;
+    height: 30px;
+    font-size: 0px;
+    border: 3px red solid;
+    margin: 0px auto;
+}
+
+.main .main-bottomsearch .mbs-main>div input[type=text] {
+    text-indent: 5px;
+    width: 500px;
+    height: 30px;
+    border: none;
+}
+
+.main .main-bottomsearch .mbs-main>div input[type=button] {
+    width: 95px;
+    height: 30px;
+    border: none;
+    background: red;
+    color: white;
+    cursor: pointer;
+}
+
+/*底部搜索栏-反馈建议栏  */
+.main .main-bottomsearch .mbs-feedback {
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+.main .main-bottomsearch .mbs-feedback span {
+    display: block;
+}
