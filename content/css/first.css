@@ -43,6 +43,7 @@ body {
 .hnav-inner .right>li>a {
     color: white;
     font-size: 10px;
+    height: 100%;
     display: inline-block;
     text-decoration: none;
 }
@@ -57,6 +58,7 @@ body {
 .hnav-inner>.iright-dv>.right li {
     display: inline-block;
     padding: 0px 5px;
+    height: 34px;
     /* border: 1px solid red; */
 }
 
