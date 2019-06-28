@@ -1,0 +1,123 @@
+.header {
+    width: 990px;
+
+    margin: 0px auto;
+    border-bottom: 2px solid #e6e6e6;
+    text-align: center;
+}
+
+.logo {
+    width: 176px;
+    height: 70px;
+    background: url("../image/Logon_image/./logo.png") no-repeat -128px -125px;
+    float: left;
+    margin-top: 10px;
+}
+
+
+
+.cv {
+    display: inline-block;
+    padding: 25px 0px;
+}
+
+.header li {
+    display: inline-block;
+    float: left;
+    padding-left: 10px;
+
+}
+
+.head-sp1 {
+    font-size: 22px;
+    font-weight: bolder;
+    color: #CCCCCC;
+    font-family: 宋体;
+}
+
+
+.head-sp0 {
+    font-size: 22px;
+    font-weight: bolder;
+    color: #3E3E3E;
+    font-family: 宋体;
+    padding-bottom: 32px;
+    border-bottom: 2px solid rgb(255, 0, 106);
+}
+
+.sp0 {
+    background-image: url("../image/Logon_image/imag01.png") !important;
+}
+
+
+li>i {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    font-size: 14px;
+    font-weight: 700;
+    color: #FFF;
+    background-image: url("../image/Logon_image/imag00.png");
+    text-align: center;
+    line-height: 24px;
+}
+
+.main {
+    text-align: center;
+    margin-top: 60px;
+}
+
+.mobile-f {
+    display: inline-block;
+}
+
+.number {
+    width: 250px;
+    height: 42px;
+    border: 1px solid #E6E6E6;
+}
+
+.mobile span {
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.yzm {
+    margin-left: 121px;
+}
+
+.yzm-bk {
+    width: 250px;
+    height: 42px;
+    border: 1px solid #E6E6E6;
+}
+
+.yzm span {
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.yzm-t {
+    width: 120px;
+    height: 25px;
+    background: url("../image/Logon_image/yz.jpg") no-repeat;
+    float: right;
+}
+
+.next {
+    margin-top: 16px;
+    margin-left: 37px;
+}
+
+
+.next-t {
+    display: inline-block;
+    width: 158px;
+    height: 33px;
+    background-color: rgb(255, 0, 106);
+    line-height: 32px;
+    font-family: 黑体;
+    font-weight: bold;
+    font-size: 22px;
+
+}

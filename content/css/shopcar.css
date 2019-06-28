@@ -1,0 +1,524 @@
+.header {
+    background-color: #F5F5F5;
+    text-align: center;
+    height: 39px;
+}
+
+.header-in {
+    display: inline-block;
+    width: 1000px;
+}
+
+.ul-1 li {
+    display: inline-block;
+    float: left;
+    margin-left: 10px;
+}
+
+.ul-1 {
+    display: inline-block;
+    font-size: 10px;
+    margin-top: 9px;
+    float: left;
+}
+
+
+.vip {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: url("../image/shopcar_image/image01.png") no-repeat 0px 0px;
+
+}
+
+.user {
+    display: inline-block;
+    font-size: 12px;
+    float: left;
+}
+
+.ul-2 {
+    display: inline-block;
+    margin-top: 8px;
+}
+
+
+.ul-2 ul {
+    display: inline-block;
+    float: right;
+}
+
+.ul-2 ul>li {
+    display: inline-block;
+    margin-right: 13px;
+
+}
+
+
+.header-two {
+    margin: 0px auto;
+
+    text-align: center;
+}
+
+.ht-in {
+    width: 1000px;
+    display: inline-block;
+
+}
+
+.logo-left {
+    width: 143px;
+    height: 61px;
+    background: url("../image/shopcar_image/image10.png") no-repeat -200px -199px;
+    float: left;
+}
+
+.logo-right {
+    width: 67px;
+    height: 24px;
+    background: url("../image/shopcar_image/image08.png") no-repeat -226px -11px;
+    float: left;
+    margin-top: 18px;
+
+}
+
+
+.search {
+    display: inline-block;
+}
+
+.sea-for {
+    width: 401px;
+    height: 32px;
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 100px;
+    border: 2px solid #FF4400;
+}
+
+.xiala {
+    width: 80px;
+    height: 32px;
+    float: left;
+    border: none;
+}
+
+.box {
+    width: 224px;
+    height: 28px;
+    float: left;
+    border-top: none;
+    border-bottom: none;
+}
+
+
+.sp {
+    padding-left: 10px;
+}
+
+.sea {
+    width: 93px;
+    height: 32px;
+    float: left;
+    line-height: 33px;
+    background-color: #FF4400;
+    font-size: 17px;
+    font-weight: bold;
+    color: white;
+}
+
+/* 标题栏样式 */
+.nav {
+    width: 1000px;
+    margin: 0px auto;
+    border-bottom: 2px solid #E6E6E6;
+}
+
+.nav-1 li {
+    display: inline-block;
+    width: 130px;
+    height: 44px;
+    line-height: 44px;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+.nav-1 li:hover {
+    border-bottom: 3px solid #FF4400;
+    color: #FF4400;
+}
+
+
+/* -------------------- */
+
+.nav-2 {
+    margin-top: 17px !important;
+    width: 1000px;
+    margin: 0px auto;
+}
+
+.ul-l {
+    display: inline-block;
+    float: left;
+
+}
+
+.ul-l li {
+    display: inline-block;
+
+    font-size: 15px;
+}
+
+.sp-info {
+    margin-left: 90px;
+}
+
+.ul-r {
+    display: inline-block;
+    float: right;
+}
+
+.ul-r li {
+    display: inline-block;
+
+    font-size: 15px;
+    margin-right: 55px;
+}
+
+/* 商品详情页面 */
+
+.goods {
+    width: 1000px;
+    margin: 0px auto;
+    border: 1px solid #CCCCCC;
+}
+
+.god-in {
+    display: inline-block;
+}
+
+.biaoti {
+    margin-left: 7px;
+    float: left;
+}
+
+.god-logo {
+    display: inline-block;
+    width: 15px;
+    height: 16px;
+    background: url("../image/shopcar_image/image05.png") no-repeat -214px -199px;
+    float: left;
+}
+
+.talk-logo {
+    display: inline-block;
+    width: 19px;
+    height: 20px;
+    background: url("../image/shopcar_image/image11.png") no-repeat 0px -80px;
+    margin-left: 7px;
+    float: left;
+}
+
+.god-down {
+    width: 998px;
+    height: 122px;
+    border: 1px solid #CCCCCC;
+    background-color: white;
+}
+
+.god-tt {
+    display: inline-block;
+    float: left;
+}
+
+
+
+.god-ul {
+    display: inline-block;
+}
+
+
+.god-ul li {
+    display: inline-block;
+    float: left;
+
+    margin-left: 13px;
+    font-size: 13px;
+}
+
+.god-pic {
+    margin-left: 2px !important;
+    width: 80px;
+    height: 80px;
+    background: url("../image/shopcar_image/image07.jpg") no-repeat;
+}
+
+.god-ull {
+    display: inline-block;
+}
+
+.god-ull li {
+    display: inline-block;
+    margin-left: 26px;
+}
+
+.add-anniu {
+    border: 1px solid #CCCCCC;
+}
+
+.box-in {
+    width: 15px;
+    height: 14px;
+}
+
+.god-main {
+    display: inline-block;
+    padding-left: 140px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.god-right {
+    display: inline-block;
+    float: right;
+    padding-right: 18px;
+}
+
+.god-right ul>li {
+    font-size: 13px;
+    margin-top: 7px;
+}
+
+.card-1 {
+    display: inline-block;
+    width: 16px;
+    height: 11px;
+    background: url("../image/shopcar_image/image03.png") no-repeat;
+}
+
+.card-2 {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background: url("../image/shopcar_image/image04.png") no-repeat;
+}
+
+.card-3 {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background: url("../image/shopcar_image/image06.png") no-repeat;
+    margin-left: 3px;
+}
+
+.god-pic-1 {
+    margin-left: 2px !important;
+    width: 80px;
+    height: 80px;
+    background: url("../image/shopcar_image/./black.jpg") no-repeat;
+}
+
+.god-pic-2 {
+    margin-left: 2px !important;
+    width: 80px;
+    height: 80px;
+    background: url("../image/shopcar_image/./blue.jpg") no-repeat;
+}
+
+.god-pic-3 {
+    margin-left: 2px !important;
+    width: 80px;
+    height: 80px;
+    background: url("../image/shopcar_image/./green.jpg") no-repeat;
+}
+
+.god-pic-4 {
+    margin-left: 2px !important;
+    width: 80px;
+    height: 80px;
+    background: url("../image/shopcar_image/./man.jpg") no-repeat;
+}
+
+/* 商品详情布局end */
+
+
+/* 结算界面布局样式 */
+
+
+.cal-nav {
+    width: 1000px;
+    height: 51px;
+
+    margin: 0px auto;
+    background-color: #E5E5E5;
+}
+
+.cal-left {
+    display: inline-block;
+}
+
+
+
+.cal-left li {
+    display: inline-block;
+    float: left;
+    font-size: 13px;
+    margin-left: 17px;
+    line-height: 50px;
+}
+
+.allselect {
+    margin-left: 0px !important;
+    font-weight: bold;
+}
+
+.cal-right {
+    display: inline-block;
+
+    padding-top: 10px;
+    float: right;
+}
+
+.cal-right li {
+    display: inline-block;
+
+    float: left;
+    margin-left: 20px;
+    padding-top: 10px;
+    font-size: 13px;
+}
+
+
+.cal-picture {
+    display: inline-block;
+    width: 117px;
+    height: 50px;
+    background: url("../image/shopcar_image/image02.png") no-repeat 0px -235px;
+    float: right
+}
+
+.cal-picture:hover {
+    background: url("../image/shopcar_image/image02.png") no-repeat -126px -235px;
+}
+
+.cal-text {
+    font-weight: bolder;
+    font-family: 黑体;
+    color: #F86700;
+}
+
+.cal-t {
+    font-weight: bolder;
+    font-family: 黑体;
+    color: #F86700;
+    font-size: 20px;
+}
+
+/* 结算界面布局样式 */
+
+/* 第二标题栏样式 */
+.nav-2 {
+    width: 1000px;
+    margin: 0px auto;
+    border-bottom: 2px solid #E6E6E6;
+}
+
+.av-1 li {
+    display: inline-block;
+    width: 130px;
+    height: 44px;
+    line-height: 44px;
+    font-size: 14px;
+    font-weight: bold;
+
+}
+
+.av-1 li:hover {
+    border-bottom: 3px solid #FF4400;
+    color: #FF4400;
+}
+
+/* ---------------------- */
+
+/* 图片列表 */
+.nav2-pic {
+    width: 1000px;
+    margin: 0px auto;
+
+}
+
+/* 第一张图 */
+.nv-1 {
+    display: inline-block;
+    float: left;
+
+}
+
+.nv1-pic {
+    width: 230px;
+    height: 230px;
+    background: url("../image/shopcar_image/image12.jpg") no-repeat;
+}
+
+.text-top {
+    font-size: 12px;
+}
+
+.price {
+    color: #FF4400;
+    font-family: 黑体;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.nav2-logo {
+    float: right;
+    display: inline-block;
+    width: 18px;
+    height: 17px;
+    background: url("../image/shopcar_image/image05.png") no-repeat -213px -199px;
+    margin-right: 10px;
+}
+
+.nv-2 {
+    display: inline-block;
+    float: left;
+
+}
+
+.nv-3 {
+    display: inline-block;
+    float: left;
+
+}
+
+.nv-4 {
+    display: inline-block;
+    float: left;
+
+}
+
+.nv2-pic {
+    width: 230px;
+    height: 230px;
+    background: url("../image/shopcar_image/image13.jpg") no-repeat;
+
+}
+
+.nv3-pic {
+    width: 220px;
+    height: 220px;
+    background: url("../image/shopcar_image/image15.jpg") no-repeat;
+    padding-bottom: 10px;
+}
+
+.nv4-pic {
+    width: 220px;
+    height: 220px;
+    background: url("../image/shopcar_image/image14.jpg") no-repeat;
+    padding-bottom: 10px;
+}
+
+/* ------------------------ */
