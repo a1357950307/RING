@@ -1,0 +1,145 @@
+.header {
+    width: 990px;
+
+    margin: 0px auto;
+    border-bottom: 2px solid #e6e6e6;
+    text-align: center;
+}
+
+
+.logo {
+    width: 176px;
+    height: 70px;
+    background: url("../image/Logon_image/logo.png") no-repeat -128px -125px;
+    float: left;
+    margin-top: 10px;
+}
+
+.cv {
+    display: inline-block;
+    padding: 25px 0px;
+}
+
+.header li {
+    display: inline-block;
+    float: left;
+    padding-left: 10px;
+
+}
+
+.head-sp1 {
+    font-size: 22px;
+    font-weight: bolder;
+    color: #CCCCCC;
+    font-family: 宋体;
+}
+
+
+.head-sp0 {
+    font-size: 22px;
+    font-weight: bolder;
+    color: #3E3E3E;
+    font-family: 宋体;
+    padding-bottom: 32px;
+    border-bottom: 2px solid rgb(255, 0, 106);
+}
+
+.sp0 {
+    background-image: url("../image/Logon_image/imag01.png") !important;
+}
+
+
+li>i {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    font-size: 14px;
+    font-weight: 700;
+    color: #FFF;
+    background-image: url("../image/Logon_image/imag00.png");
+    text-align: center;
+    line-height: 24px;
+}
+
+.main {
+    text-align: center;
+}
+
+
+.info-form {
+    display: inline-block;
+    margin-top: 70px;
+}
+
+.box {
+    width: 369px;
+    height: 50px;
+    border: 1px solid #e6e6e6;
+    margin-top: 9px;
+}
+
+.real span {
+    font-size: 17px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.IDcard span {
+    font-size: 17px;
+    font-weight: bold;
+    margin-left: -16px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.name-1 span {
+    font-size: 17px;
+    font-weight: bold;
+    margin-right: 18px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.pwd-1 span {
+    font-size: 17px;
+    font-weight: bold;
+    margin-right: 35px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.check span {
+    font-size: 17px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.agree {
+    margin-left: 95px;
+}
+
+.agree span>a {
+    color: #4E7BD6;
+}
+
+.agree span>a:hover {
+    color: rgb(255, 0, 106);
+}
+
+
+
+
+/* 下一步按钮 */
+
+.an-logo {
+    margin-top: 22px;
+    display: inline-block;
+    width: 158px;
+    height: 33px;
+    background-color: rgb(255, 0, 106);
+    line-height: 32px;
+    font-family: 黑体;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.an-logo:hover {
+    color: white;
+}
