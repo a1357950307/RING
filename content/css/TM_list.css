@@ -431,6 +431,20 @@
     border-right: rgb(229, 229, 229) 1px solid;
 }
 
+.main .main-pageturn>form>div .mpt-left ul .mptl-li6 {
+    position: relative;
+}
+
+.main .main-pageturn>form>div .mpt-left ul .mptl-li6 .mptll6-sp1 {
+    position: absolute;
+    display: inline-block;
+    width: 70px;
+    height: 20px;
+    top: -20px;
+    background: url("../image/TM_list/TM_list_smtm2.png") no-repeat center;
+    left: 12%;
+}
+
 /* 右侧 */
 .main .main-pageturn>form>div .mpt-right {
     float: left;
