@@ -49,7 +49,7 @@ window.onload = function () {
         gw = (rnd % 10).toString();
         picid = sw + gw;
         var newadd = add.replace(
-            "TM_list_pinfo01.jpg",
+            "TM_list_pinfo10.jpg",
             "TM_list_pinfo" + picid + ".jpg"
         );
         newadd = newadd.replace("七彩虹RTX2060 6G Ultra/AD/Vulcan", pdname_arr[rnd1]);
