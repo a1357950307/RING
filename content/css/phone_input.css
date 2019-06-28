@@ -119,5 +119,9 @@ li>i {
     font-family: 黑体;
     font-weight: bold;
     font-size: 22px;
+}
 
+
+.next-t :hover {
+    color: white;
 }
